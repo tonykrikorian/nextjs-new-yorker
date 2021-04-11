@@ -1,9 +1,18 @@
 .logobarMainContainer {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  img {
-    width: 30rem;
-    height: 7rem;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.leftnav {
+  background-image: url(https://subscribe.newyorker.com/circulation/newyorker/images/NYR_230x110_Header_INTL_Nov20_2x.png);
+  background-size: cover;
+  height: 10rem;
+  width: 22rem;
+}
+.yorkerlogo {
+  width: 27rem;
+  object-fit: contain;
 }

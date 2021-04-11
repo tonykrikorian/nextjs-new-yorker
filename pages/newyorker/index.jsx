@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import LogoBar from '../../components/logobar/LogoBar'
 import SubscriberBar from '../../components/subscribebar/Index'
 const Index = () => {
     return (<div className="main-container">
@@ -6,7 +7,8 @@ const Index = () => {
             <title>The New Yorker</title>
             <link rel="shortcut icon" href="yorker_favicon.ico" type="image/x-icon"/>
         </Head>
-        <SubscriberBar newsletter={'#'} login={'#'} search={'#'} subscribe={'#'}/>
+        {/* <SubscriberBar newsletter={'#'} login={'#'} search={'#'} subscribe={'#'}/> */}
+        <LogoBar/>
     </div>  );
 }
  
