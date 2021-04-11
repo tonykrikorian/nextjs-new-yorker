@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "nunito_sansregular";
+  src: url("../../fonts/nunito-sans/nunitosans-regular-webfont.woff2")
+      format("woff2"),
+    url("../../fonts/nunito-sans/nunitosans-regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.subscribeBarMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 15rem;
+  border: 1px solid lightgray;
+  padding: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  a {
+    font-family: "nunito_sansregular";
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
