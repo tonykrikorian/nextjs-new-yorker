@@ -6,7 +6,7 @@ const Index = () => {
             <title>The New Yorker</title>
             <link rel="shortcut icon" href="yorker_favicon.ico" type="image/x-icon"/>
         </Head>
-        <SubscriberBar/>
+        <SubscriberBar newsletter={'#'} login={'#'} search={'#'} subscribe={'#'}/>
     </div>  );
 }
  
