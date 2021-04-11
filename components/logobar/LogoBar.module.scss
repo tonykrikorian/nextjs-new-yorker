@@ -1,3 +1,8 @@
+.main {
+  -webkit-box-shadow: 0px 6px 0px 0px rgba(207, 207, 207, 0.13);
+  box-shadow: 0px 6px 0px 0px rgba(207, 207, 207, 0.13);
+}
+
 .logobarMainContainer {
   display: flex;
   justify-content: space-between;
@@ -5,6 +10,8 @@
   padding-left: 3rem;
   padding-right: 3rem;
   flex-wrap: wrap;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .leftnav {
